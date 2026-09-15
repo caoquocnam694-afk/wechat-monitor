@@ -1,0 +1,13 @@
+{
+  "wechat_data_dir": "C:\\path\\to\\your\\WeChat\\xwechat_files",
+  "archive_db_path": "archive.db",
+  "poll_interval_seconds": 30,
+  "key_cache_path": "password.key",
+  "weixin_path": "C:\\path\\to\\Weixin.exe",
+  "log_path": "wechat_monitor.log",
+  "wxid": "",
+  "collect_list_path": "collect_list.txt",
+  "webhook_urls": [],
+  "bearer_token": "",
+  "file_collect_dir": "collected_files"
+}
