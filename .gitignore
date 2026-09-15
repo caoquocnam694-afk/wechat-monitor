@@ -1,0 +1,63 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 敏感：数据库密钥（禁止入库）
+password.key
+key.txt
+
+# 敏感：归档库（含聊天记录隐私）
+archive.db
+archive.db-*
+*.db-journal
+
+# 敏感：本机运行配置（含 wxid 与绝对路径）
+config.json
+collect_list.txt
+
+# 运行时产物：从微信落盘的文件本体（含聊天隐私）
+collected_files/
+
+# 日志
+*.log
+
+# 导出的聊天记录（含隐私，不入库）
+今天_*.txt
+*_分群记录.txt
+
+# 一次性调试脚本（内嵌了密钥与路径）
+diagnose.py
+scan_key.py
+verify_key.py
+verify_all.py
+verify_offset.py
+spawn_extract.py
+test_zstd.py
+inspect_schema.py
+query_archive.py
+research_mapping.py
+research2.py
+research3.py
+research4.py
+research5.py
+test_pipeline.py
+test_ai.py
+test_push.py
+test_connect.py
+run_min_loop.py
+run_import_week.py
+
+# 参考实现（第三方 clone 仓库，不纳入本仓库）
+reference/
+
+# 媒体导出产物（含聊天隐私）
+export_media/
+verify_images/
+新建文件夹/
+
+# 图片解密密钥缓存（敏感）
+image_keys.json
+
+# 导出增量游标（本机运行状态）
+export_media_state.json
